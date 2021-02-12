@@ -1,0 +1,4 @@
+*.csv
+git rm --cached *.csv
+*.pkl
+git rm --cached *.pkl

@@ -3,11 +3,9 @@
 #### Objective: 
 
 ---
-
 - Predicting whether an existing health insurance customer will be cross-sold car insurance.
 
 #### Data Sources:
-
 ---
 
 - Kaggle and Analytics Vidhya Competition (data 

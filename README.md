@@ -17,10 +17,10 @@
 - Many companies have payback periods, which represents the number of months to pay back customer acquisition costs, of 5+ months.  Given this high payback period, cross-selling existing customers is a great way to win high margin revenue.
 
 - Through prediction from this project, the sales and marketing team could pre-screen customers and place a high emphasis on customers with a high probability of being cross-sold
-  $$
+  ```math
   CAC = \frac{(Total Marketing Expenses + Total Sales Expenses)}
   {(Numboer of Customers Won)}
-  $$
+  ```
 
 ## Featured Techniques & Models
 - Feature Engineering and Selection 

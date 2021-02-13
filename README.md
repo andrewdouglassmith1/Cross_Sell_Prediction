@@ -18,8 +18,7 @@
 
 - Through prediction from this project, the sales and marketing team could pre-screen customers and place a high emphasis on customers with a high probability of being cross-sold
   ```math
-  CAC = \frac{(Total Marketing Expenses + Total Sales Expenses)}
-  {(Numboer of Customers Won)}
+  CAC = \frac{(Total Marketing Expenses + Total Sales Expenses)}{(Numboer of Customers Won)}
   ```
 
 ## Featured Techniques & Models

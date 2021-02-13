@@ -1,6 +1,5 @@
 # Cross Sell Prediction
 
-<<<<<<< HEAD
 **Objective** 
 ---
 
@@ -13,23 +12,31 @@
 **Background**
 ---
 
-Companies typically win most of their customers through paid channels and implicitly have incurred costs for every customer they win.  For instance, Facebook ads, direct mail or the sales team directly engaging wit customers.  This is known as customer acquisition costs or CAC.
-=======
-## Objective: 
-- Predicting whether an existing health insurance customer will be cross-sold car insurance.
+- Companies typically win most of their customers through paid channels and implicitly have incurred costs for every customer they win.  For instance, Facebook ads, direct mail or the sales team directly engaging wit customers.  This is known as customer acquisition costs or CAC.
 
-#### Data Sources:
+- Many companies have payback periods, which represents the number of months to pay back customer acquisition costs, of 5+ months.  Given this high payback period, cross-selling existing customers is a great way to win high margin revenue.
+
+- Through prediction from this project, the sales and marketing team could pre-screen customers and place a high emphasis on customers with a high probability of being cross-sold
+  $$
+  CAC = \frac{(Total Marketing Expenses + Total Sales Expenses)}
+  {(Numboer of Customers Won)}
+  $$
+
+## Featured Techniques & Models
+- Feature Engineering and Selection 
+- Supervised Machine Learning
+- Imbalanced Techniques
+- Logistic Regression
+- K-Nearest Neighbors 
+- Random Forest 
+- Naive Bayes (Gaussian and Categorical)
+- Balanced Random Forest
+- Balanced Bagging Classifier 
+- XGBoost (Binary Logistic)
+
+**Results**
 ---
->>>>>>> 3fc18e35a1e50de2b46afd2739e546ea9b72d1f7
 
+Given the emphasis is on recall, but some precision is still necessary the optimization metric was F2.  If the model overpredicts, the number of cross-sold customers, a wider net for the marketing team is not deleterious.  Hopefully, some of these customers can be prodded to be cross-sold through increased marketing. 
 
-<<<<<<< HEAD
-
-
-**Approach**
----
-
-I chose to optimize F2 score, given marketing teams 
-=======
-  [here]: https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
->>>>>>> 3fc18e35a1e50de2b46afd2739e546ea9b72d1f7
+The top performing model was a logistic regression (threshold = 0.2) with a 61% F2 score, 31% precision and 81% recall.  The top features were whether the customer had a vehicle with damage, was sold their health insurance through policy sales channel 26 and was in Region Code 28.  The second highest performing model was a balanced Random Forest with a 60% F2 score, 29% precision and 82% recall.

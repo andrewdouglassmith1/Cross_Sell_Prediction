@@ -12,14 +12,12 @@
 **Background**
 ---
 
-- Companies typically win most of their customers through paid channels and implicitly have incurred costs for every customer they win.  For instance, Facebook ads, direct mail or the sales team directly engaging wit customers.  This is known as customer acquisition costs or CAC.
+- Companies typically win most of their customers through paid channels and implicitly have incurred costs for every customer they win.  For instance, Facebook ads, direct mail or the sales team directly engaging with customers.  This is known as customer acquisition costs or "CAC".
 
 - Many companies have payback periods, which represents the number of months to pay back customer acquisition costs, of 5+ months.  Given this high payback period, cross-selling existing customers is a great way to win high margin revenue.
 
-- Through prediction from this project, the sales and marketing team could pre-screen customers and place a high emphasis on customers with a high probability of being cross-sold
-  ```math
-  CAC = \frac{(Total Marketing Expenses + Total Sales Expenses)}{(Numboer of Customers Won)}
-  ```
+- Through cross-sell prediction from this project, the sales and marketing team could pre-screen customers and place an emphasis on customers with a high probability of being cross-sold.
+
 
 ## Featured Techniques & Models
 - Feature Engineering and Selection 
